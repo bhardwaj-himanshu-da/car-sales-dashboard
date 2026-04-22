@@ -1,105 +1,150 @@
-🚗 Car Sales Dashboard (Power BI)
-📌 Project Overview
-This project focuses on designing and developing an interactive Car Sales Dashboard using Power BI to track, analyze, and visualize sales performance of a car dealership.
+# 🚗 Car Sales Dashboard (Power BI)
+
+---
+
+## 📌 Project Overview
+
+This project focuses on designing and developing an interactive **Car Sales Dashboard** using **Power BI** to track, analyze, and visualize sales performance of a car dealership.
 The dashboard provides actionable insights into sales trends, pricing, and regional performance, enabling better data-driven decision-making.
-🎯 Objective
+
+---
+
+## 🎯 Objective
+
 To build a dynamic dashboard that:
 
-Tracks key sales KPIs
-Monitors growth trends (YTD, MTD, YOY)
-Analyzes customer preferences (body style, color)
-Identifies high-performing regions and brands
+- ✅ Tracks key sales KPIs
+- ✅ Monitors growth trends (YTD, MTD, YOY)
+- ✅ Analyzes customer preferences (body style, color)
+- ✅ Identifies high-performing regions and brands
 
-📊 Key Features
-1. KPI Metrics
+---
+
+## 📊 Key Features
+
+### 1. KPI Metrics
+
 The dashboard includes the following key performance indicators:
-🔹 Sales Overview
 
-Year-to-Date (YTD) Total Sales
-Month-to-Date (MTD) Total Sales
-Year-over-Year (YOY) Growth in Sales
-Difference between YTD and Previous YTD (PTYD)
+#### 🔹 Sales Overview
 
-🔹 Average Price Analysis
+| Metric | Description |
+|--------|-------------|
+| YTD Total Sales | Year-to-Date cumulative sales |
+| MTD Total Sales | Month-to-Date cumulative sales |
+| YOY Growth | Year-over-Year growth in sales |
+| YTD vs PTYD | Difference between current and previous YTD |
 
-YTD Average Price
-MTD Average Price
-YOY Growth in Average Price
-Difference between YTD and PTYD Average Price
+#### 🔹 Average Price Analysis
 
-🔹 Cars Sold Metrics
+| Metric | Description |
+|--------|-------------|
+| YTD Average Price | Year-to-Date average selling price |
+| MTD Average Price | Month-to-Date average selling price |
+| YOY Growth | Year-over-Year growth in average price |
+| YTD vs PTYD | Difference between current and previous YTD |
 
-YTD Cars Sold
-MTD Cars Sold
-YOY Growth in Cars Sold
-Difference between YTD and PTYD Cars Sold
+#### 🔹 Cars Sold Metrics
 
-2. Visualizations
-📈 Sales Trends
+| Metric | Description |
+|--------|-------------|
+| YTD Cars Sold | Total units sold year-to-date |
+| MTD Cars Sold | Total units sold month-to-date |
+| YOY Growth | Year-over-Year growth in units sold |
+| YTD vs PTYD | Difference between current and previous YTD |
 
-Weekly YTD Sales Trend (Line Chart)
+---
 
-🥧 Distribution Analysis
+### 2. Visualizations
 
-Sales by Body Style (Pie Chart)
-Sales by Color (Pie Chart)
+| Chart Type | Visual | Purpose |
+|------------|--------|---------|
+| 📈 Line Chart | Weekly YTD Sales Trend | Track sales momentum over time |
+| 🥧 Pie Chart | Sales by Body Style | Understand body style preferences |
+| 🥧 Pie Chart | Sales by Color | Understand color preferences |
+| 🌍 Map | Cars Sold by Dealer Region | Regional performance analysis |
+| 📋 Grid/Table | Company-wise Sales Trend | Brand-level comparison |
+| 📋 Detail Table | Model, Style, Color, Region, Date, Sales | Granular transaction data |
 
-🌍 Regional Analysis
+---
 
-Cars Sold by Dealer Region (Map Visualization)
+## 🛠️ Tools & Technologies
 
-📋 Tabular Insights
+| Tool | Purpose |
+|------|---------|
+| ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black) | Data visualization & dashboard creation |
+| ![Excel](https://img.shields.io/badge/Excel%20%2F%20CSV-217346?style=flat&logo=microsoftexcel&logoColor=white) | Data source |
+| ![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat&logo=microsoft&logoColor=white) | KPI calculations |
 
-Company-wise Sales Trend (Grid/Table)
-Detailed Sales Data (Model, Body Style, Color, Region, Date, Sales)
+---
 
-🛠️ Tools & Technologies
+## 📂 Repository Structure
 
-Power BI – Data visualization & dashboard creation
-Excel / CSV (Dataset) – Data source
-DAX (Data Analysis Expressions) – KPI calculations
-
-📂 Repository Structure
 📁 Car-Sales-Dashboard
 │── 📊 Car_sale_dashboard.pbix      # Power BI Dashboard File
 │── 📄 Problem Statement.docx       # Business Problem Description
 │── 📄 README.md                    # Project Documentation
 │── 📁 Dataset                      # Raw data files
-│── 📁 Screenshots                  # Dashboard images
-📸 Dashboard Preview
-Show Image
-Show Image
-🧠 Key Insights
+└── 📁 Screenshots                  # Dashboard images
 
-Identified peak sales weeks and seasonal trends
-Highlighted top-performing car body styles and colors
-Revealed high-revenue regions for targeted marketing
-Enabled comparison of current vs previous year performance
+---
 
-🚀 How to Use
+## 📸 Dashboard Preview
 
-Download the .pbix file
-Open in Power BI Desktop
-Refresh data (if dataset included)
-Interact with filters and visuals
+**Overview Page**
 
-📈 Business Impact
+![Overview](https://github.com/user-attachments/assets/80848726-b55d-4efb-8ff3-79cfc4e01538)
 
-Improved decision-making with real-time insights
-Better inventory planning based on demand trends
-Enhanced regional sales strategy
-Data-backed pricing and promotion decisions
+**Details Page**
 
-🔮 Future Improvements
+![Details](https://github.com/user-attachments/assets/73a5d95a-ed57-4ee9-8daa-0f4b4f27edc8)
 
-Add predictive analytics (sales forecasting)
-Integrate real-time data sources
-Build customer segmentation dashboards
-Deploy dashboard on Power BI Service
+---
 
-👤 Author
-Himanshu Bhardwaj
-MBA (Marketing) | Aspiring Growth Marketer
-Experience in Digital Marketing, Analytics & Business Strategy
-⭐ If you like this project
-Give it a ⭐ on GitHub and feel free to fork or contribute!
+## 🧠 Key Insights
+
+- 📅 Identified **peak sales weeks** and seasonal trends
+- 🚘 Highlighted **top-performing car body styles** and colors
+- 📍 Revealed **high-revenue regions** for targeted marketing
+- 📊 Enabled comparison of **current vs previous year** performance
+
+---
+
+## 🚀 How to Use
+
+1. Download the `.pbix` file
+2. Open in **Power BI Desktop**
+3. Refresh data *(if dataset is included)*
+4. Interact with filters and visuals
+
+---
+
+## 📈 Business Impact
+
+- 💡 Improved decision-making with real-time insights
+- 📦 Better inventory planning based on demand trends
+- 🗺️ Enhanced regional sales strategy
+- 💰 Data-backed pricing and promotion decisions
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Add predictive analytics *(sales forecasting)*
+- [ ] Integrate real-time data sources
+- [ ] Build customer segmentation dashboards
+- [ ] Deploy dashboard on Power BI Service
+
+---
+
+## 👤 Author
+
+**Himanshu Bhardwaj**
+<br>MBA (Marketing) | Aspiring Growth Marketer
+<br>Experience in Digital Marketing, Analytics & Business Strategy
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on **GitHub** and feel free to **fork** or **contribute**!
