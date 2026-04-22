@@ -76,16 +76,6 @@ The dashboard includes the following key performance indicators:
 | ![Excel](https://img.shields.io/badge/Excel%20%2F%20CSV-217346?style=flat&logo=microsoftexcel&logoColor=white) | Data source |
 | ![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat&logo=microsoft&logoColor=white) | KPI calculations |
 
----
-
-## 📂 Repository Structure
-
-📁 Car-Sales-Dashboard
-│── 📊 Car_sale_dashboard.pbix      # Power BI Dashboard File
-│── 📄 Problem Statement.docx       # Business Problem Description
-│── 📄 README.md                    # Project Documentation
-│── 📁 Dataset                      # Raw data files
-└── 📁 Screenshots                  # Dashboard images
 
 ---
 
